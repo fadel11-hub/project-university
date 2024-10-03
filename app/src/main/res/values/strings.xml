@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">My Course School Outside Country</string>
+
+    <string name="univ_name">Nama Universitas</string>
+    <string name="description">Deskripsi</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+
+    <string-array name="data_name">
+        <item>Massachusetts Institute of Technology</item>
+        <item>Imperial College London</item>
+        <item>University of Oxford</item>
+        <item>Harvard University</item>
+        <item>University of Cambridge</item>
+        <item>Stanford University</item>
+        <item>ETH Zurich</item>
+        <item>National University of Singapore (NUS)</item>
+        <item>UCL (University College London)</item>
+        <item>California Institute of Technology</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>The Massachusetts Institute of Technology (MIT) menerima mahasiswa pertama kali pada 1865. Berlokasi di Charles River Basin, Cambridge, MIT diakreditasi oleh New England Association of Schools and Colleges. Beragam program studi tersedia di Fakultas Arsitektur dan perenecanaan, Fakultas Teknik, Fakultas Humaniora, Seni, dan Ilmu Sosial, Sekolah Manajemen Sloan, Fakultas Sains dan Sekolah Ilmu Kesehatan Whitaker. MIT memiliki enam kampus yang menyediakan akomodasi bagi mahasiswanya.</item>
+        <item>Imperial College dibangun pada tahun 1907 untuk membantu pengembangan kajian interdisipliner, juga menawarkan berbagai fasilitas riset. Kampus utamanya berlokasi di Kensington Selatan, sementara kampus lainnya tersebar di Hammersmith, Silwood Park, Royal Brompton, Nortwick Park, Charing Cross, St Marys, Wye, Chelsea, dan Westminster. Ada sekitar 12.129 mahasiswa penuh-waktu yang terdaftar di universitas ini. Program yang ditawarkan adalah Fakultas Teknik, Fakultas Kedokteran, Sekolah Bisnis Imperial College, dan Fakultas Ilmu Alam.</item>
+        <item>Meskipun data tentang berdirinya universitas ini masih belum terungkap, sejarah keberadaan Oxford University sudah terlacak pada akhir abad ke-11. Universitas ini terletak di Wellington Square, Oxford dan saat ini memiliki 20.000 mahasiswa. Ada empat divisi akademik di sini, yaitu Humaniora, Ilmu Medis, Matematika, Fisika dan Ilmu Alam, dan Ilmu Sosial. Beberapa program yang ditawarkan diantaranya, sains, biokimia, kimia, komputer, ornitologi, ilmu teknik, Studi Islam, Material, Matematika, dan lain-lain.</item>
+        <item>Harvard College didirikan tahun 1636. Kampus utama Harvard berada di Cambridge dan Boston. Program studi di universitas ini tersebar di Fakultas Seni dan Sains, Sekolah Bisnis, Sekolah Desain, Sekolah Keagamaan, Sekolah Pascasarjana Pendidikan, Sekolah Pemerintahan JFK, Sekolah Hukum, Sekolah Kedokteran dan Sekolah Kesehatan Masyarakat. Selain menyelenggarakan pendidikan jenjang sarjana, pascasarjana, dan profesi, universitas ini juga punya program studi lanjutan dan summer program (program musim panas). Fasilitas yang tersedia di kampus ini di antaranya Museum Seni Harvard dan perpustakaan</item>
+        <item>University of Cambridge didirikan tahun 1209. Jumlah mahasiswa di kampus ini mencapai 17.000 orang, dan 3.000 diantaranya adalah mahasiswa internasional. Universitas Cambridge sangat menonjol di bidang matematika. Mahasiswa harus mengikuti ujian masuk jika ingin mengambil jurusan Seni, yang merupakan jurusan andalan di Cambridge. Ada enam sekolah yang ditawarkan, yaitu Seni dan Humaniora, Ilmu Biologi, Klinik Kedokteran, Humaniora dan Ilmu Sosial, Ilmu Fisika, dan Teknologi. Masing-masing jurusan mencakup kelompok fakultas tertentu.</item>
+        <item>Standford university pertama kali membuka pintu kelasnya untuk para mahasiswa pada tahun 1981, setelah melewati enam bulan masa perencanaan dan pembangunan; universitas ini terletak di Stanford, California. Sekolah-sekolah yang ditawarkan di universitas ini diantaranya, Sekolah Humaniora dan Sains, Sekolah Teknik, Sekolah Ilmu Kebumian, sekolah Pendidikan, Sekolah Bisnis Pascasarjana, Sekolah Hukum Stanford dan Sekolah Kedokteran Universitas Stanford. Sekolah-sekolah tersebut menawarkan program-program sarjana dan pascasarjana di berbagai bidang.</item>
+        <item>ETH Zurich (‹Lihat Tfd›Jerman: Eidgenössische Technische Hochschule Zürich; Bahasa Inggris: Federal Institute of Technology Zurich) adalah universitas riset publik di Zurich, Swiss. Didirikan pada tahun 1854 dengan misi yang dinyatakan untuk mendidik insinyur dan ilmuwan, universitas ini berfokus terutama pada sains, teknologi, teknik, dan matematika.</item>
+        <item>National University of Singapore, didirikan pada 1905, berlokasi di barat daya Singapura, tepatnya di Kent Ridge, menerima sekitar 31.265 mahasiswa. NUS menawarkan program gelar tunggal S1, master, doktoral, dan diploma. Perkuliahan dilakukan di fakultas Seni dan Ilmu Sosial, Bisnis, Komputer, Kedokteran Gigi, Desain dan Lingkungan, Teknik, Hukum, Kedokteran, Sains, Kebijakan Publik, Sains Integratif dan Teknik, program Sarjana, Musik, Komunikasi Bahasa Inggris, Institut Sains Sistem dan Matematika dan Sains.</item>
+        <item>University of London adalah institusi negeri yang didirikan tahun 1826, saat ini memiliki lebih dari 22.000 mahasiswa. Universitas ini terletak di London dan merupakan universitas federal besar yang memiliki 31 afiliasi. Melalui Institut dan Fakultas yang dimiliki, universitas ini menyelenggarakan 3700 perkuliahan setiap tahun, mencakup semua jurusan yang ada di dalam kurikulum universitas-universitas lain di Inggris. Diantara jurusan tersebut ada Ilmu Keagamaan,, Kedokteran, Bedah Gigi, Teknik, Sains, Musik, Seni, Administrasi Bisnis, Pendidikan, Perdagangan dan Humaniora.</item>
+        <item>California Institute of Technology yang berlokasi di California, didirikan pada 1891. Penerimaan mahasiswa baru mencapai sekitar 2.100 orang. Jurusan yang tersedia di universitas ini seperti Biologi, Kimia dan Teknik Kimia, Teknik dan Sains Terapan, Ilmu Geologi dan ilmu Planet, Humaniora dan Ilmu Sosial, Fisika Matematika dan Astronomi dan program antardisiplin ilmu. Kampus menjamin akomodasi bagi semua mahasiswa sarjana dan tahun pertama bagi semua mahasiswa pascasarjana.</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/225px-MIT_logo.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Imperial_College_London_new_logo.png/360px-Imperial_College_London_new_logo.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/University_of_Oxford.svg/375px-University_of_Oxford.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Harvard_University_logo.svg/330px-Harvard_University_logo.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/University_of_Cambridge_logo.svg/383px-University_of_Cambridge_logo.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Stanford_wordmark_%282012%29.svg/225px-Stanford_wordmark_%282012%29.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/ETH_Z%C3%BCrich_Logo_black.svg/330px-ETH_Z%C3%BCrich_Logo_black.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/NationalUniversityofSingapore.svg/225px-NationalUniversityofSingapore.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/University_College_London_logo.svg/375px-University_College_London_logo.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Seal_of_the_California_Institute_of_Technology.svg/225px-Seal_of_the_California_Institute_of_Technology.svg.png</item>
+    </string-array>
+</resources>
