@@ -15,6 +15,9 @@
         android:theme="@style/Theme.MyCourseSchoolOutsideCountry"
         tools:targetApi="31">
         <activity
+            android:name=".DetailUniversity"
+            android:exported="false" />
+        <activity
             android:name=".Listuniversity"
             android:exported="false" />
         <activity
