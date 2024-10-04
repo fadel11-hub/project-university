@@ -7,5 +7,5 @@ import kotlinx.parcelize.Parcelize
 data class University (
     val name: String,
     val description: String,
-    val photo: String
+    val photo: Int
 ) : Parcelable

@@ -17,15 +17,16 @@
             android:layout_height="wrap_content">
 
             <ImageView
+                android:id="@+id/tv_object_received_image"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                android:scaleType="fitXY"
-                android:src="@tools:sample/avatars"/>
+                android:scaleType="fitXY"/>
 
         </FrameLayout>
 
         <TextView
+            android:id="@+id/tv_object_received_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -34,9 +35,10 @@
             android:layout_marginBottom="8dp"
             android:textSize="32sp"
             android:textStyle="bold"
-            android:text="@string/univ_name"/>
+            tools:text="@string/univ_name"/>
 
         <TextView
+            android:id="@+id/tv_object_received_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -44,6 +46,21 @@
             android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
             android:textSize="16sp"
-            android:text="@string/description"
+            tools:text="@string/description"/>
     </LinearLayout>
 </ScrollView>
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:padding="16dp"-->
+<!--    tools:context=".DetailUniversity">-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="32sp"-->
+<!--        android:layout_marginRight="15dp"-->
+<!--        android:text="hello" />-->
+<!--</RelativeLayout>-->

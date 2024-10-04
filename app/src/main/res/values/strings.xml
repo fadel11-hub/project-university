@@ -32,16 +32,29 @@
         <item>California Institute of Technology yang berlokasi di California, didirikan pada 1891. Penerimaan mahasiswa baru mencapai sekitar 2.100 orang. Jurusan yang tersedia di universitas ini seperti Biologi, Kimia dan Teknik Kimia, Teknik dan Sains Terapan, Ilmu Geologi dan ilmu Planet, Humaniora dan Ilmu Sosial, Fisika Matematika dan Astronomi dan program antardisiplin ilmu. Kampus menjamin akomodasi bagi semua mahasiswa sarjana dan tahun pertama bagi semua mahasiswa pascasarjana.</item>
     </string-array>
 
-    <string-array name="data_photo">
-        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/225px-MIT_logo.svg.png</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Imperial_College_London_new_logo.png/360px-Imperial_College_London_new_logo.png</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/University_of_Oxford.svg/375px-University_of_Oxford.svg.png</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Harvard_University_logo.svg/330px-Harvard_University_logo.svg.png</item>
-        <item>https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/University_of_Cambridge_logo.svg/383px-University_of_Cambridge_logo.svg.png</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Stanford_wordmark_%282012%29.svg/225px-Stanford_wordmark_%282012%29.svg.png</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/ETH_Z%C3%BCrich_Logo_black.svg/330px-ETH_Z%C3%BCrich_Logo_black.svg.png</item>
-        <item>https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/NationalUniversityofSingapore.svg/225px-NationalUniversityofSingapore.svg.png</item>
-        <item>https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/University_College_London_logo.svg/375px-University_College_London_logo.svg.png</item>
-        <item>https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Seal_of_the_California_Institute_of_Technology.svg/225px-Seal_of_the_California_Institute_of_Technology.svg.png</item>
-    </string-array>
+<!--    <string-array name="data_photo">-->
+<!--        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/225px-MIT_logo.svg.png</item>-->
+<!--        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Imperial_College_London_new_logo.png/360px-Imperial_College_London_new_logo.png</item>-->
+<!--        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/University_of_Oxford.svg/375px-University_of_Oxford.svg.png</item>-->
+<!--        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Harvard_University_logo.svg/330px-Harvard_University_logo.svg.png</item>-->
+<!--        <item>https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/University_of_Cambridge_logo.svg/383px-University_of_Cambridge_logo.svg.png</item>-->
+<!--        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Stanford_wordmark_%282012%29.svg/225px-Stanford_wordmark_%282012%29.svg.png</item>-->
+<!--        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/ETH_Z%C3%BCrich_Logo_black.svg/330px-ETH_Z%C3%BCrich_Logo_black.svg.png</item>-->
+<!--        <item>https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/NationalUniversityofSingapore.svg/225px-NationalUniversityofSingapore.svg.png</item>-->
+<!--        <item>https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/University_College_London_logo.svg/375px-University_College_London_logo.svg.png</item>-->
+<!--        <item>https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Seal_of_the_California_Institute_of_Technology.svg/225px-Seal_of_the_California_Institute_of_Technology.svg.png</item>-->
+<!--    </string-array>-->
+
+    <integer-array name="data_photo">
+        <item>@drawable/massachusetts_institute_of_technology</item>
+        <item>@drawable/imperial_college_london</item>
+        <item>@drawable/university_of_oxford</item>
+        <item>@drawable/harvard_university</item>
+        <item>@drawable/university_of_cambridge</item>
+        <item>@drawable/stanford_university</item>
+        <item>@drawable/eth_zurich</item>
+        <item>@drawable/national_university_of_singapore</item>
+        <item>@drawable/university_college_london</item>
+        <item>@drawable/california_institute_of_technology</item>
+    </integer-array>
 </resources>

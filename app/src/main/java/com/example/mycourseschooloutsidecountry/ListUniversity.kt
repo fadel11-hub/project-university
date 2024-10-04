@@ -1,5 +1,6 @@
 package com.example.mycourseschooloutsidecountry
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -27,10 +28,11 @@ class ListUniversity(private val listUniversity: ArrayList<University>) :Recycle
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
         val (name, description, photo) = listUniversity[position]
 //        holder.imgPhoto.setImageResource(photo)
-        Glide.with(holder.itemView.context)
-            .load(photo)
-            .into(holder.imgPhoto)
-        
+//        Glide.with(holder.itemView.context)
+//            .load(photo)
+//            .into(holder.imgPhoto)
+
+        holder.imgPhoto.setImageResource(photo)
         holder.tvName.text = name
         holder.tvDescription.text = description
         
@@ -38,7 +40,15 @@ class ListUniversity(private val listUniversity: ArrayList<University>) :Recycle
 //            Toast.makeText(holder.itemView.context, "Kamu memilih " + listUniversity[holder.adapterPosition].name, Toast.LENGTH_SHORT).show()
 //        }
 
-        holder.itemView.setOnClickListener{onItemClickCallback.onItemClicked(listUniversity[holder.adapterPosition])}
+        holder.itemView.setOnClickListener{
+            val content = holder.itemView.context
+            val intentToDetail = Intent(content, DetailUniversity::class.java).apply {
+                putExtra(DetailUniversity.EXTRA_PHOTO, photo)
+                putExtra(DetailUniversity.EXTRA_NAME, name)
+                putExtra(DetailUniversity.EXTRA_DESCRIPTION, description)
+                    }
+            content.startActivity(intentToDetail)
+            onItemClickCallback.onItemClicked(listUniversity[holder.adapterPosition])}
         }
 
     class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -49,6 +59,6 @@ class ListUniversity(private val listUniversity: ArrayList<University>) :Recycle
 
     interface OnItemClickCallback {
         fun onItemClicked(data: University)
-    }
+        }
     }
 

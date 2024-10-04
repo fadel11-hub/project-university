@@ -10,4 +10,10 @@
         android:id="@+id/action_grid"
         android:title="Grid"
         app:showAsAction="never"/>
+
+<!--    <item-->
+<!--        android:id="@+id/action_search"-->
+<!--        android:icon="@android:dr"-->
+<!--        android:title="@string/univ_name"-->
+<!--        app:showAsAction="ifRoom" />-->
 </menu>

@@ -1,8 +1,12 @@
 package com.example.mycourseschooloutsidecountry
 
+import android.content.Intent
 import android.os.Bundle
+import android.os.Parcel
+import android.os.Parcelable
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,10 +15,10 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-class MainActivity : AppCompatActivity() {
+class MainActivity() : AppCompatActivity() {
     private lateinit var rvUniversity: RecyclerView
-//    panggil data xml
     private val list = ArrayList<University>()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,15 +38,12 @@ class MainActivity : AppCompatActivity() {
         return super.onCreateOptionsMenu(menu)
     }
 
-    //    Kemudian, untuk menangani kejadian ketika pengguna menyentuh salah satu item
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.action_list -> {
-//                Pada sisi fleksibilitas, RecyclerView memiliki beragam bentuk yang disesuaikan dengan design yang diinginkan. Kita hanya perlu menentukan nilai pada metode setLayoutManager() saja untuk menentukan bagaimana RecyclerView ditampilkan.
                 rvUniversity.layoutManager = LinearLayoutManager(this)
             }
             R.id.action_grid -> {
-//                Paramater pertama merupakan context dan parameter kedua adalah jumlah kolom yang ingin dibuat.
                 rvUniversity.layoutManager = GridLayoutManager(this, 2)
             }
         }
@@ -52,11 +53,11 @@ class MainActivity : AppCompatActivity() {
     private fun getListUniversity(): ArrayList<University> {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataDescription = resources.getStringArray(R.array.data_description)
-        val dataPhoto = resources.getStringArray(R.array.data_photo)
+        val dataPhoto = resources.obtainTypedArray(R.array.data_photo)
 
         val listUniversity = ArrayList<University>()
         for (i in dataName.indices) {
-            val university = University(dataName[i], dataDescription[i], dataPhoto[i])
+            val university = University(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1))
             listUniversity.add(university)
         }
 
@@ -67,6 +68,13 @@ class MainActivity : AppCompatActivity() {
         rvUniversity.layoutManager = LinearLayoutManager(this)
         val listUniversity = ListUniversity(list)
         rvUniversity.adapter = listUniversity
+
+        listUniversity.setOnItemClickCallback(object : ListUniversity.OnItemClickCallback {
+            override fun onItemClicked(data: University) {
+                showSelectedUniv(data)
+            }
+
+        })
     }
 
     private fun showSelectedUniv(univ: University ) {
