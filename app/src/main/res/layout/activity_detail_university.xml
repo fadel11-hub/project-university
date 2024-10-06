@@ -7,6 +7,8 @@
     android:layout_height="match_parent"
     tools:context=".DetailUniversity">
 
+    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,7 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                android:scaleType="fitXY"/>
+                android:scaleType="fitXY" />
 
         </FrameLayout>
 
@@ -29,24 +31,24 @@
             android:id="@+id/tv_object_received_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
             android:textSize="32sp"
             android:textStyle="bold"
-            tools:text="@string/univ_name"/>
+            tools:text="@string/univ_name" />
 
         <TextView
             android:id="@+id/tv_object_received_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
             android:textSize="16sp"
-            tools:text="@string/description"/>
+            tools:text="@string/description" />
     </LinearLayout>
 </ScrollView>
 

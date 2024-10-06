@@ -40,11 +40,15 @@ class MainActivity() : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.action_list -> {
-                rvUniversity.layoutManager = LinearLayoutManager(this)
-            }
-            R.id.action_grid -> {
-                rvUniversity.layoutManager = GridLayoutManager(this, 2)
+//            R.id.action_list -> {
+//                rvUniversity.layoutManager = LinearLayoutManager(this)
+//            }
+//            R.id.action_grid -> {
+//                rvUniversity.layoutManager = GridLayoutManager(this, 2)
+//            }
+            R.id.action_about -> {
+                val moveIntent = Intent(this@MainActivity, Akun::class.java)
+                startActivity(moveIntent)
             }
         }
         return super.onOptionsItemSelected(item)

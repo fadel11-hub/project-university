@@ -42,13 +42,14 @@ class ListUniversity(private val listUniversity: ArrayList<University>) :Recycle
 
         holder.itemView.setOnClickListener{
             val content = holder.itemView.context
-            val intentToDetail = Intent(content, DetailUniversity::class.java).apply {
-                putExtra(DetailUniversity.EXTRA_PHOTO, photo)
-                putExtra(DetailUniversity.EXTRA_NAME, name)
-                putExtra(DetailUniversity.EXTRA_DESCRIPTION, description)
-                    }
+            val intentToDetail = Intent(content, DetailUniversity::class.java)
+                intentToDetail.putExtra(DetailUniversity.EXTRA_PHOTO, photo)
+                intentToDetail.putExtra(DetailUniversity.EXTRA_NAME, name)
+                intentToDetail.putExtra(DetailUniversity.EXTRA_DESCRIPTION, description)
+
             content.startActivity(intentToDetail)
-            onItemClickCallback.onItemClicked(listUniversity[holder.adapterPosition])}
+            onItemClickCallback.onItemClicked(listUniversity[holder.adapterPosition])
+            }
         }
 
     class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

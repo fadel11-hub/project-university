@@ -2,18 +2,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item
-        android:id="@+id/action_list"
-        android:title="List"
-        app:showAsAction="never"/>
-    <item
-        android:id="@+id/action_grid"
-        android:title="Grid"
-        app:showAsAction="never"/>
-
 <!--    <item-->
-<!--        android:id="@+id/action_search"-->
-<!--        android:icon="@android:dr"-->
-<!--        android:title="@string/univ_name"-->
-<!--        app:showAsAction="ifRoom" />-->
+<!--        android:id="@+id/action_list"-->
+<!--        android:title="List"-->
+<!--        app:showAsAction="never"/>-->
+<!--    <item-->
+<!--        android:id="@+id/action_grid"-->
+<!--        android:title="Grid"-->
+<!--        app:showAsAction="never"/>-->
+
+    <item
+        android:id="@+id/action_about"
+        android:title="About"
+        app:showAsAction="never" />
+
+
 </menu>

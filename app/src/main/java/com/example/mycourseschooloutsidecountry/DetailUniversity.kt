@@ -26,7 +26,7 @@ class DetailUniversity : AppCompatActivity() {
 //        val tvDataName: TextView = findViewById(R.id.tv_object_received_title)
 //        val tvDataDescription: TextView = findViewById(R.id.tv_object_received_description)
 
-        val photo = intent.getIntExtra(EXTRA_PHOTO, -1)
+        val photo = intent.getIntExtra(EXTRA_PHOTO, 0)
         val name = intent.getStringExtra(EXTRA_NAME)
         val description = intent.getStringExtra(EXTRA_DESCRIPTION)
 
